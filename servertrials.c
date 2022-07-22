@@ -14,7 +14,7 @@ void func(int connfd)
 {
 	char buff[MAX];
 	int n;
-	// infinite loop for chat
+	// infinite loop for chatting
 	for (;;) {
 		bzero(buff, MAX);
 
